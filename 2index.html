@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+          margin: 0;
+          padding:0;
+          box-sizing: border-box;
+         }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            height: 100%;
+            background-color: #000;
+        }
+        .header {
+     position: absolute;
+     top: 20px;
+     left: 150px;
+     width: 85%;
+     margin: auto;
+     padding: 35px 0 50px 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     }
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin:0 20px;
+    position: relative;
+}
+.menu-item+.menu-item {
+    margin-left: 50px;
+    }
+.menu-link {
+ text-decoration: none;
+ color: #fefefe;
+ font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.menu-link:hover {
+   color:rgb(126, 224, 28);
+}
+        
+        .portfolio {
+            padding: 100px 0 20px 0;
+           
+        } 
+        
+        .portfolio h2 {
+            text-align: center;
+            color: #fefefe;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }    
+            span {
+                padding:0 5px 0 5px;
+            }
+            .line-2,.line-3 {
+            padding-top: 10px;
+            }
+            .card {
+                cursor: pointer;
+            }  
+        
+            .card img:hover{
+                opacity:0.7;
+                
+            }   
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/Matix-LogoSlogan-W1.png" alt="logo_Matrix"></a>
+        </div>
+            <nav class="nav">
+                <ul class="menu">
+                   <li class="menu-item"><a class="menu-link" href="3index.html">Ресурсы</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="portfolio">
+
+        <h2>Портфолио</h2>
+
+       <div class="gallery">
+        <div class="line-1">
+            <span class="card"><a href="https://aiseliinferno.github.io/aido/" target="_blank"><img src="images/JPEG/1.jpg"></a></span> 
+            <span class="card"><a href="https://aiseliinferno.github.io/cv/" target="_blank"><img src="images/JPEG/3.jpg"></a></span> 
+            <span class="card"><a href="https://ainasha.github.io/MY-CV/" target="_blank"><img src="images/JPEG/8.jpg"></a></span> 
+            </div>
+           
+           <div class="line-2">
+            <span class="card"><a href="https://aiseliinferno.github.io/yrys/" target="_blank"><img src="images/JPEG/7.jpg"></a></span> 
+            <span class="card"><a href="https://aiseliinferno.github.io/zeyno/" target="_blank"><img src="images/JPEG/2.jpg"></a></span> 
+            <span class="card"><a href="https://aiseliinferno.github.io/b/" target="_blank"><img src="images/JPEG/9.jpg"></a></span> 
+             </div>
+
+           <div class="line-3">
+           <span class=" card"><a href="https://aiseliinferno.github.io/dosik/" target="_blank"><img src="images/JPEG/4.jpg"></a></span> 
+           <span class="card"><a href="https://aiseliinferno.github.io/sayu/" target="_blank"><img src="images/JPEG/6.jpg"></a></span> 
+           <span class="card"><a href="https://aiseliinferno.github.io/jago/" target="_blank"><img src="images/JPEG/5.jpg"></a></span> 
+          </div>
+       </div>
+      </div>
+</body>
+</html>
